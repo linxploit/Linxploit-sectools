@@ -71,8 +71,8 @@ No `pip install`, no bloated dependencies, no setup overhead. Pure Python 3 stdl
 
 ```bash
 # Clone the repository
-git clone https://github.com/linxploit/sectools.git
-cd sectools
+git clone https://github.com/linxploit/Linxploit-sectools.git
+cd Linxploit-sectools
 
 # Install (creates launcher in /usr/local/bin or ~/bin)
 chmod +x install.sh

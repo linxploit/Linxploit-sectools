@@ -93,8 +93,8 @@ python3 toolkit.py
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/linxploit/sectools.git
-cd sectools
+git clone https://github.com/linxploit/Linxploit-sectools.git
+cd Linxplot-sectools
 python3 toolkit.py
 ```
 

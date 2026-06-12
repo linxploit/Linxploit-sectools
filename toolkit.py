@@ -451,8 +451,8 @@ def search_tools(query: str) -> list[tuple[Tool, Category]]:
 def render_banner() -> Panel:
     art = Text(justify="center")
     art.append("\n")
-    art.append("██╗     ██╗███╗   ██╗██╗  ██╗██████╗ ██╗      ██████╗ ██╗████████╗\n", style="bold red")
-    art.append("██║     ██║████╗  ██║╚██╗██╔╝██╔══██╗██║     ██╔═══██╗██║╚══██╔══╝\n", style="bold red")
+    art.append("  ██╗     ██╗███╗   ██╗██╗  ██╗██████╗ ██╗      ██████╗ ██╗████████╗\n", style="bold red")
+    art.append("  ██║     ██║████╗  ██║╚██╗██╔╝██╔══██╗██║     ██╔═══██╗██║╚══██╔══╝\n", style="bold red")
     art.append("██║     ██║██╔██╗ ██║ ╚███╔╝ ██████╔╝██║     ██║   ██║██║   ██║   \n", style="bold red")
     art.append("██║     ██║██║╚██╗██║ ██╔██╗ ██╔═══╝ ██║     ██║   ██║██║   ██║   \n", style="bold red")
     art.append("███████╗██║██║ ╚████║██╔╝ ██╗██║     ███████╗╚██████╔╝██║   ██║   \n", style="bold red")
